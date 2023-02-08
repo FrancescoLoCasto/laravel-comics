@@ -2,7 +2,7 @@
 
 @section('main-content')
 
-   <div class="container-fluid my-banner w-100">
+   <div class="container-image my_banner">
       <img src="{{ Vite::asset('resources/assets/img/jumbotron.jpg') }}" alt="">
    </div>
 
@@ -11,7 +11,7 @@
          <div class="row">
             @foreach ($comics as $comics)
             <div class="col-4">
-               <div class="card">
+               <div class="card my_card">
                   <img src="{{ $comics['thumb'] }}" alt="">
                   <div class="description-card">
                      <h1>{{ $comics['title'] }}</h1>
