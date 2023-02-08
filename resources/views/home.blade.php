@@ -2,12 +2,16 @@
 
 @section('main-content')
 
-   <div class="container">
+<div class="comics">
+   <div class="container bg-dark p-5">
       <div class="row">
-         <div class="col-12">
-            <h1>bla</h1>
+         <div class="col-4">
+            <div class="card">
+
+            </div>
          </div>
       </div>
    </div>
+</div>
 
 @endsection
