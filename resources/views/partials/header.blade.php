@@ -9,10 +9,10 @@
      <div class="collapse navbar-collapse" id="navbarSupportedContent">
        <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-3 text-center">
          <li class="nav-item ms-5">
-           <a class="nav-link active" aria-current="page" href="#">Characters</a>
+           <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Characters</a>
          </li>
          <li class="nav-item  ms-5">
-           <a class="nav-link active" href="#">Comics</a>
+           <a class="nav-link active" href="{{ route('products') }}">Comics</a>
          </li>
          <li class="nav-item  ms-5">
             <a class="nav-link active" href="#">Movies</a>
