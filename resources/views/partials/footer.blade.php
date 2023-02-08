@@ -9,14 +9,14 @@
    </div>
    <div class="social-box">
       <div class="social">
-         <h3>
+         <div class="btn my_buttonfollow text-primary fw-bold text-uppercase">
                Follow us
-         </h3>
-         <img src="../assets/img/footer-facebook.png" alt="">
-         <img src="../assets/img/footer-periscope.png" alt="">
-         <img src="../assets/img/footer-pinterest.png" alt="">
-         <img src="../assets/img/footer-twitter.png" alt="">
-         <img src="../assets/img/footer-youtube.png" alt="">
+         </div>
+         <img src="{{ Vite::asset('resources/assets/img/footer-facebook.png') }}" alt="">
+         <img src="{{ Vite::asset('resources/assets/img/footer-periscope.png') }}" alt="">
+         <img src="{{ Vite::asset('resources/assets/img/footer-pinterest.png') }}" alt="">
+         <img src="{{ Vite::asset('resources/assets/img/footer-twitter.png') }}" alt="">
+         <img src="{{ Vite::asset('resources/assets/img/footer-youtube.png') }}" alt="">
       </div>
    </div>
 </div>
