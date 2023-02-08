@@ -2,7 +2,7 @@
 
 @section('main-content')
 
-   <div class="container-fluid my-banner">
+   <div class="container-fluid my-banner w-100">
       <img src="{{ Vite::asset('resources/assets/img/jumbotron.jpg') }}" alt="">
    </div>
 
@@ -26,5 +26,7 @@
          </div>
       </div>
    </div>
+
+   
 
 @endsection
