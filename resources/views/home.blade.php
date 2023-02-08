@@ -7,7 +7,7 @@
    </div>
 
    <div class="comics">
-      <div class="container-fluid bg-dark p-5">
+      <div class="container-fluid my_container bg-dark p-5 ">
          <div class="row">
             @foreach ($comics as $comics)
             <div class="col-4">
